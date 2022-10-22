@@ -1,0 +1,25 @@
+const songNames = [
+	"Lentito",
+	"Ramona Flowers",
+	"Reina Pepiada",
+	"Llori Pari",
+	"Close Friends",
+	"Deportivo",
+	"Babysita </3 ",
+	"ABC",
+	"OG Black",
+	"Tortura China",
+	"Todo Bien",
+	"Problemón",
+	"Gatillera",
+	"Nitro+",
+	"Shh",
+	"Chinita Linda",
+	"Online ;( ",
+	"Para Ya!",
+	"No Te Quiero Perder",
+	"Gongoli",
+	"Mantecado De Coco",
+];
+
+export {songNames};

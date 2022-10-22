@@ -1,0 +1,126 @@
+@font-face {
+  font-family: Circular Medium;
+  src: url('./Circular-Medium.ttf');
+}
+
+@font-face {
+  font-family: Circular Book;
+  src: url('./Circular Book.ttf');
+}
+
+body {
+	font-family: 'Helvetica Neue', sans-serif;
+	background-color: #191919;
+	color: white;
+	padding: 20px;
+}
+
+h1 {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+
+h4 {
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+a {
+	color: #0f099d;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+a:hover {
+	background: black;
+	color: white;
+}
+
+#container {
+	width: 100%;
+	max-width: 600px;
+	margin: 50px auto;
+}
+
+form {
+	margin-bottom: 15px;
+}
+
+form > div {
+	margin: 10px 0;
+}
+
+label {
+	width: 100%;
+	letter-spacing: 1px;
+	font-size: 18px;
+	text-transform: lowercase;
+	margin-left: 3px;
+	margin-bottom: 5px;
+}
+
+.name {
+	width: 10rem;
+	border: none;
+	height: 2rem;
+	border-radius: 5px;
+	background-color: #070707;
+	color: white;
+	padding-left: 10px;
+	margin-bottom: 6px;
+}
+
+.name:focus {
+	outline: none;
+}
+
+input[type="submit"], button {
+	background-color: #070707;
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	font-family: 'Helvetica Neue', sans-serif;
+	text-transform: lowercase;
+	margin: 5px 0;
+	cursor: pointer;
+	width: 5rem;
+	height: 2.5rem;
+	border-radius: 5px;
+}
+
+canvas {
+	width: 414px;
+	height: 896px;
+}
+
+#player {
+	width: 100%;
+	max-width: 414px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.hide {
+	display: none !important;
+}
+
+#disclaimer {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#disclaimer p {
+	font-size: 14px;
+}
+
+.disclaimer a {
+	color: #01ca03;
+}
+
+.create a  {
+	color: #068408;
+}

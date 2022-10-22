@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+  <title>tu rola de alvarito</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="container">
+    <h1>Tú, pero en una rola de alvarito <3 </h1>
+    <h4>sube o tomate una selfie, ponla en tus stories :) </h4>
+    <form>
+      <div>
+        <label>nombre</label><br/>
+        <input class="name" type="text" id="name" maxLength="20"/><br/>
+      </div>
+      <div>
+        <label>sube una pic</label><br/>
+        <input class="image" type="file" id="imageLoader" name="imageLoader" accept="image/*"/><br/>
+      </div>
+      <button id="submit">enviar</button>
+    </form>
+    <div id="player" class="hide">
+      <canvas id="imageCanvas"></canvas>
+      <button id="download">Descargar</button>
+    </div>
+    <div id="disclaimer" class="disclaimer">
+      <p>escucha tu canción aqui <a href="https://open.spotify.com/artist/5J7rXWjtn5HzUkJ4Jet8Fr" target="_blank">Alvarito</a></p>
+      <p class="create">por: <a href="https://www.instagram.com/fernando.crg/" target="_blank">@fernando.crg</a> :)</p>
+    </div>
+  </div>
+  <script type="module" src="./variables.js"></script>
+  <script type="module" src="./script.js"></script>
+</body>
